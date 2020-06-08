@@ -1,0 +1,22 @@
+{
+  "name": "json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "git": "^0.1.5",
+    "init": "^0.1.2",
+    "mongodb": "^3.5.7",
+    "nodemon": "^2.0.4",
+    "sanitize-html": "^1.24.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "watch": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
